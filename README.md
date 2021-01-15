@@ -22,7 +22,7 @@
 * YES
 ## Deployed link
 * https://github.com/Juzva8/Employee-Directory
-* 
+* https://juzva8.github.io/Employee-Directory
 ## License
 * A short and simple permissive license with conditions only requiring preservation of copyright and license notices. Licensed works, modifications, and larger works may be distributed under different terms and without source code.
 ## Questions
