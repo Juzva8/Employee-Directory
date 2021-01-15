@@ -1,8 +1,8 @@
-import React, { Component } from 'React';
+import React, { Component } from 'react';
 import API from '../utils/API';
-import '../style/DataAre.css';
-import Navbar from '/Navbar';
-
+// import '../style/DataAre.css';
+import NavBar from './Navbar';
+import DataTable from './DataTable';
 
 
 export default class DataArea extends Component {
@@ -13,11 +13,11 @@ order:'descend',
 filteredUsers: [{}]
 };
 headings = [
-{name: 'Name'},
-{name: 'Image'},
-{name: 'Phone'},
-{name: 'Email'},
-{name: 'Date of Birth'},
+{name: 'Name', width:'20%'},
+{name: 'Image', width:'20%'},
+{name: 'Phone', width:'20%'},
+{name: 'Email', width:'20%'},
+{name: 'Date of Birth', width:'20%'},
 ]
 
 componentDidMount () {
@@ -31,8 +31,6 @@ this.setState({
     
     })
 }
-
-// function to handle sort, handle sort change 
 
 handleSearchChange = event => {
 console.log(event.target.value)
@@ -50,10 +48,13 @@ render() {
     return (
          <>
          NavComponent handle search changes 
-<NavBar handleSearchChange={handleSearchChange}/>
+<NavBar handleSearchChange={this.handleSearchChange}/>
 
         note main data table headings name, email, phone dataBirth picture name
-         
+         < DataTable 
+         headings = {this.headings}
+         users = {this.state.filteredUsers}
+         />
          
          </>
     );
