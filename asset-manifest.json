@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Juzva8/static/css/main.5259fca3.chunk.css",
+    "main.js": "/Juzva8/static/js/main.8ba82327.chunk.js",
+    "main.js.map": "/Juzva8/static/js/main.8ba82327.chunk.js.map",
+    "runtime-main.js": "/Juzva8/static/js/runtime-main.eca420f4.js",
+    "runtime-main.js.map": "/Juzva8/static/js/runtime-main.eca420f4.js.map",
+    "static/js/2.384d8d36.chunk.js": "/Juzva8/static/js/2.384d8d36.chunk.js",
+    "static/js/2.384d8d36.chunk.js.map": "/Juzva8/static/js/2.384d8d36.chunk.js.map",
+    "static/js/3.9d03e153.chunk.js": "/Juzva8/static/js/3.9d03e153.chunk.js",
+    "static/js/3.9d03e153.chunk.js.map": "/Juzva8/static/js/3.9d03e153.chunk.js.map",
+    "index.html": "/Juzva8/index.html",
+    "static/css/main.5259fca3.chunk.css.map": "/Juzva8/static/css/main.5259fca3.chunk.css.map",
+    "static/js/2.384d8d36.chunk.js.LICENSE.txt": "/Juzva8/static/js/2.384d8d36.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.eca420f4.js",
+    "static/js/2.384d8d36.chunk.js",
+    "static/css/main.5259fca3.chunk.css",
+    "static/js/main.8ba82327.chunk.js"
+  ]
+}
