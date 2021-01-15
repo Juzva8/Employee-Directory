@@ -1,26 +1,24 @@
 import React, { Component } from 'react';
+import '../style/navbar.css'
 
 
 function NavBar({handleSearchChange}){
 return (
 
 <nav>
-<form>
+<h5>Filter by clicking heading or use the search box to narrow your results.
+</h5>
 <input  
-className = "form-control"
+className = "navbar"
 type = 'search' 
 placeholder = 'Search'
 onChange = {e => handleSearchChange(e) }
 />
 
-</form>
-
 </nav>
 
 )
-
-
-
 }
 
 export default NavBar;
+

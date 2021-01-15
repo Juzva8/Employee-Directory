@@ -1,5 +1,5 @@
 import React from "react";
-//import "../styles/DataBody.css";
+import '../style/DataBody.css'
 function DataBody({ users }) {
   function formatDate(date) {
     const dateArray = date.split("-");
@@ -16,25 +16,25 @@ function DataBody({ users }) {
         users.map(({ login, name, picture, phone, email, dob }) => {
           return (
             <tr key={login.uuid}>
-              <td data-th="Image" className="align-middle">
+              <td data-th="Image" className="align-right">
                 <img
                   src={picture.medium}
                   alt={"profile image for " + name.first + " " + name.last}
                   className="img-responsive"
                 />
               </td>
-              <td data-th="Name" className="name-cell align-middle">
+              <td data-th="Name" className="name-cell align-right">
                 {name.first} {name.last}
               </td>
-              <td data-th="Phone" className="align-middle">
+              <td data-th="Phone" className="align-right">
                 {phone}
               </td>
-              <td data-th="Email" className="align-middle">
+              <td data-th="Email" className="align-right">
                 <a href={"mailto:" + email} target="__blank">
                   {email}
                 </a>
               </td>
-              <td data-th="DOB" className="align-middle">
+              <td data-th="DOB" className="align-right">
                 {formatDate(dob.date)}
               </td>
             </tr>
@@ -47,9 +47,3 @@ function DataBody({ users }) {
   );
 }
 export default DataBody;
-
-
-
-
-
-

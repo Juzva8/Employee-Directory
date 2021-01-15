@@ -1,0 +1,13 @@
+.name-cell {
+    text-transform: capitalize;
+   
+tr {
+    text-align: justify;
+    opacity: 0.8;
+    border-radius: 150px;
+    
+}
+}
+th {
+    padding-bottom: 1.0em;
+}

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import API from '../utils/API';
-// import '../style/DataAre.css';
+import '../style/DataArea.css';
 import NavBar from './Navbar';
 import DataTable from './DataTable';
 
@@ -85,10 +85,7 @@ this.setState({
 render() {
     return (
          <>
-         NavComponent handle search changes 
 <NavBar handleSearchChange={this.handleSearchChange}/>
-
-        note main data table headings name, email, phone dataBirth picture name
          < DataTable 
          headings = {this.headings}
          users = {this.state.filteredUsers}
